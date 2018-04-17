@@ -1,0 +1,1 @@
+The feature I used was the html forms. These forms allows user to enter data which then is added to the database using the POST method and insert_all_data function.
