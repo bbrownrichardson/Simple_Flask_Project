@@ -1,0 +1,25 @@
+<!-- This is an HTML template. HTML is a markup language used to specify the
+structure and formatting of a web page. This web page is a list of names. The
+names are not explicitly given here, they will be filled in by Flask using the
+names in a database.
+
+Strings surrounded by < and > are tags. The <html> tag specifies the beginning
+of the HTML document. There is a corresponding </html> tag at the end of the
+file that indicates the end of the document. Similarly, the <body> and </body>
+tags surround the body of the web page. The title is not part of the body,
+so it is surrounded by <title> and </title> outside of the body. -->
+
+<html xmlns="http://www.w3.org/1999/html">
+<title>Locations</title>
+<body>
+
+<h1>Locations</h1>
+
+<ul>
+    {% for City, Country in locations %}
+    <li>{{City}}, {{Country}}</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>

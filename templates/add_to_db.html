@@ -1,0 +1,39 @@
+<!-- This is an HTML template. HTML is a markup language used to specify the
+structure and formatting of a web page. This web page is a list of names. The
+names are not explicitly given here, they will be filled in by Flask using the
+names in a database.
+
+Strings surrounded by < and > are tags. The <html> tag specifies the beginning
+of the HTML document. There is a corresponding </html> tag at the end of the
+file that indicates the end of the document. Similarly, the <body> and </body>
+tags surround the body of the web page. The title is not part of the body,
+so it is surrounded by <title> and </title> outside of the body. -->
+
+<html xmlns="http://www.w3.org/1999/html">
+<title>Survey</title>
+<body>
+
+<h1>Survey of Favs</h1>
+
+<form method="POST" action="/">
+    <div class>
+        <h5> PERSONAL INFO</h5>
+        <p>First Name: <input type="text" name="First_name"></p>
+
+        <p>Last Name:<input type="text" name="Last_name"></p>
+
+        <p>City: <input type="text" name="City"></p>
+
+        <p>Country: <input type="text" name="Country"></p>
+
+        <h5> NAME YOUR FAVORITE: </h5>
+        <p>Soda: <input type="text" name="Soda"></p>
+
+        <p>Candy: <input type="text" name="Candy"></p>
+
+    </div>
+        <input type="submit" value="submit">
+</form>
+
+</body>
+</html>
