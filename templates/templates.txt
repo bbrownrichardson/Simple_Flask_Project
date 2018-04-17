@@ -1,0 +1,1 @@
+This folder contains the .html files to be rendered for each table present in the database
